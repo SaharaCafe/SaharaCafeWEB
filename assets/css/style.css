@@ -509,6 +509,61 @@ section#promo-card {
     }
 }
 
+/* Review page code */
+#reviews {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
+
+.review-title {
+    background-color: #f0f0f0;
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+.review.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.review {
+    width: 33.33%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: space-between;
+}
+
+.review .author {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.review .rating {
+    padding: 10px;
+}
+
+.stars {
+  color: gold;
+}
+
+.review .comment {
+    padding: 10px;  
+}
+/* End Review page code */
+
 /*, *:after, *:before {
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
