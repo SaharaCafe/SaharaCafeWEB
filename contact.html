@@ -1,0 +1,99 @@
+<!DOCTYPE html
+	
+	<head>
+		<meta http-equiv="Content-Type"content="text/html; charset=utf-8"/>
+		<meta name="viewport"content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		
+		<link href="style.css"rel="stylesheet"type="text/css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+		<!-- external css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+     <style>
+        .contact-wrap {
+            margin-top: 100px; /* Page goes to far up */
+        }
+    </style>
+
+   <body>
+    <!-- Header Section -->
+    <section class="header-img">
+        <header class="header-main">
+            <nav class="nav-main">
+                <h1 class="main-title"><a href="#">Sahara Cafe</a></h1>
+                <div class="openMenu"><i class="fa-solid fa-bars" style="color: #bfefff;"></i></div>
+                <ul class="nav-ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#menu">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <div class="closeMenu"><i class="fa-solid fa-xmark"></i></div>
+                </ul>
+            </nav>
+        </header>
+
+	</head>
+	<body>
+<style>
+        .contact-wrap,
+        .contact-in h1,
+        .contact-in h2,
+        .contact-in p,
+        .contact-in input,
+        .contact-in textarea {
+            color: #89cff0;
+        }
+    </style>
+		<div class="contact-wrap">
+			<div class="contact-in">
+				<h1>Contact Info</h1>
+				<h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+				<p>(206) 659-4248</p>
+				<h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+				<p>saharacafe@gmail.com</p>
+				<h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
+				<p>13919 Tukwila International Blvd, Tukwila, WA 98168</p>
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="contact-in">
+				<h1>Send a Message</h1>
+				<form>
+					<input type="text" placeholder="Full Name" class="contact-in-input">
+					<input type="text" placeholder="Email" class="contact-in-input">
+					<br><input type="text" placeholder="Subject" class="contact-in-input"> </br>
+					<textarea placeholder="Message" class="contact-in-textarea"></textarea>
+					<input type="submit" value="SUBMIT" class="contact-in-btn">
+					<form action="https://formsubmit.co/nadars15@icloud.com" method="POST" />
+				</form>
+			</div>
+			<div class="contact-in">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.240641043529!2d-122.28174278447549!3d47.454091979176804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905723a91b5779%3A0x1069f5f05c80e0fd!2s13919%20Tukwila%20International%20Blvd%2C%20Tukwila%2C%20WA%2098168%2C%20USA!5e0!3m2!1sen!2sus!4v1644294024648!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<script>
+        $(document).ready(function() {
+            $('#contact-form').submit(function(e) {
+                var name = $('#inputName').val();
+                var email = $('#inputEmail').val();
+                var message = $('#inputMessage').val();
+                if (!name || !email || !message) {
+                    alert('Please fill in all fields.');
+                    e.preventDefault();
+                } else {
+                    // Simulating AJAX submission delay
+                    setTimeout(function() {
+                        $('#thank-you-message').fadeIn();
+                        $('#contact-form').trigger('reset');
+                    }, 1000);
+
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
