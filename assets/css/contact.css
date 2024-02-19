@@ -33,7 +33,7 @@ body {
 
 .contact-in:nth-child(2) {
 	flex: 45%;
-	background: lightgray;
+	background: gray;
 }
 
 .contact-in:nth-child(3) {
