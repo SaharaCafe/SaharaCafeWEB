@@ -61,7 +61,7 @@ html {
     text-decoration: none;
     font-size: 25px;
     white-space: nowrap;
-    color: #FF9D2E;
+    color: White;
     cursor: pointer;
 }
 .nav-ul {
@@ -105,7 +105,7 @@ html {
     text-transform: capitalize;
 }
 .header-context h1 {
-    color: #2297be;
+    color: White;
     font-family: 'Rouge Script', cursive;
     white-space: nowrap;
     font-size: 80px;
