@@ -564,66 +564,6 @@ section#promo-card {
 }
 /* End Review page code */
 
-/*, *:after, *:before {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-}
-body{
-margin:0;
-overflow-x:hidden !important;
-box-sizing:border-box;
-font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-a{
-text-decoration:none;
-outline:none !important;
-color:#fff;
-}
-
-.border-shape {
-background: #ffbe00 none repeat scroll 0 0;
-color: #fff;
-display: block;
-height: 3px;
-left: 0;
-margin: 20px auto;
-position: relative;
-right: 0;
-text-align: center;
-top: 0;
-width: 80px;
-}
-
-.border-shape::before {
-background: #ffbe00 none repeat scroll 0 0;
-bottom: 0;
-content: "";
-height: 1px;
-left: 80px;
-margin: 0 auto;
-position: absolute;
-text-align: center;
-top: 1px;
-width: 100px;
-}
-
-.border-shape::after {
-background: #ffbe00 none repeat scroll 0 0;
-bottom: 0;
-content: "";
-height: 1px;
-margin: 0 auto;
-position: absolute;
-right: 80px;
-text-align: center;
-top: 1px;
-width: 100px;
-}
-
-
 
 
 
