@@ -34,16 +34,7 @@
 
 	</head>
 	<body>
-<style>
-        .contact-wrap,
-        .contact-in h1,
-        .contact-in h2,
-        .contact-in p,
-        .contact-in input,
-        .contact-in textarea {
-            color: black;
-        }
-    </style>
+
 		<div class="contact-wrap">
 			<div class="contact-in">
 				<h1>Contact Info</h1>
@@ -69,26 +60,52 @@
 			</div>
 			<div class="contact-in">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.240641043529!2d-122.28174278447549!3d47.454091979176804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905723a91b5779%3A0x1069f5f05c80e0fd!2s13919%20Tukwila%20International%20Blvd%2C%20Tukwila%2C%20WA%2098168%2C%20USA!5e0!3m2!1sen!2sus!4v1644294024648!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-<script>
-        $(document).ready(function() {
-            $('#contact-form').submit(function(e) {
-                var name = $('#inputName').val();
-                var email = $('#inputEmail').val();
-                var message = $('#inputMessage').val();
-                if (!name || !email || !message) {
-                    alert('Please fill in all fields.');
-                    e.preventDefault();
-                } else {
-                    // Simulating AJAX submission delay
-                    setTimeout(function() {
-                        $('#thank-you-message').fadeIn();
-                        $('#contact-form').trigger('reset');
-                    }, 1000);
+<!--FOOTER-->
+<footer>
+  <div class="top_header">
+    <section>
+      <span><i class="fa fa-map-marker"></i></span>
+<a href="https://www.google.com/maps/place/13919+Tukwila+International+Blvd,+Tukwila,+WA+98168" target="_blank" style="color:white">
+                    <span>13919 Tukwila International Blvd, Tukwila, WA 98168</span>
+                </a>
+    </section>
+    <section>
+<span><i class="fa fa-phone"></i></span>
+     <span><u>206-659-4248</span></u>
+    </section>
+    <section>
+      <span><i class="fa fa-envelope"></i></span>
+     <span><u>saharacafe@gmail.com</span></u>
+    </section>
+  </div>
+  <span class="border-shape"></span>
+  <div class="bottom_content">
+    <section>
+      <h1 class="main-title"><a href="#">Sahara Cafe</a></h1>
+    </section>
+    <section>
+      <a href="index.html">Home</a>
+      <a href="about.html">About us</a>
+    <a href="index.html#menu">Menu</a>
+      <a href="contact.html">Contact Us</a>
+        <a href=https://www.yelp.com/biz/sahara-cafe-tukwila>Yelp</a>
+         <a href="https://m.facebook.com/profile.php?id=238623169539202&_rdr">FaceBook</a>
+    </section>
+  </div>
+  <div class="copyright">
+    Copyright © 2024 -   <a href="https://www.linkedin.com/in/nsheikh-4846b02a5" target="_blank" style="color: white;">Nadar</a>  ,
 
-                    e.preventDefault();
-                }
-            });
-        });
-    </script>
+<a href="https://www.linkedin.com/in/salma-abdullahi-8371702b5?trk=people-guest_people_search-card"target="_blank" style="color: white;">Salma</a>
+   
+
+<a href="https://www.linkedin.com/in/zakaria-sheikh-a360b5243/"target="_blank" style="color: white;">Zakaria</a>
+   
+    , <a href="https://www.linkedin.com/in/ben-minniti-47951b231"target="_blank" style="color: white;">Ben</a>
+  </div>
+</footer>
+
+  
+</body>
+</html>
 </body>
 </html>
