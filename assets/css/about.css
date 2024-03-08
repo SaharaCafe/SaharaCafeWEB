@@ -29,8 +29,8 @@ html {
 
 /* About Us Page */
 *{
-    padding: 50px;
-    margin: 50px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 @font-face {
